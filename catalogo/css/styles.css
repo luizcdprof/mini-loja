@@ -1,0 +1,25 @@
+.produtos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .produto {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  @media (min-width: 600px) {
+    .produtos {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .produtos {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  

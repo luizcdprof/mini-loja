@@ -1,0 +1,6 @@
+[
+    { "nome": "Produto 1", "preco": "99.00", "descricao": "Produto excelente!" },
+    { "nome": "Produto 2", "preco": "149.00", "descricao": "Produto incrível!" },
+    { "nome": "Produto 3", "preco": "199.00", "descricao": "Produto top!" }
+  ]
+  
